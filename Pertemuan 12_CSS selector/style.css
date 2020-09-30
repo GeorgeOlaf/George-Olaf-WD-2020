@@ -1,0 +1,39 @@
+p{
+    color :blue;
+}
+p.merah.feedback{
+   color: crimson; 
+   border: 5px solid yellow ;
+}
+div i{
+    color: rosybrown;
+}
+#top-container{
+    background-color: silver;
+}
+#bot-container{
+    background-color: slategrey;
+}
+a[href]{
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: turquoise;
+}
+a[href="www.unklab.ac.id"]{
+    background-color: yellow;
+}
+a[href$=".com"]{
+    background-color: yellowgreen;
+}
+h1:hover{
+    color: whitesmoke;
+    background-color: black;
+}
+p::selection{
+    background-color: brown;
+    color: chartreuse ;
+}
+a::before{
+    content:"Link -";
+}

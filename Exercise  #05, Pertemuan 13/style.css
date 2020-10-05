@@ -1,0 +1,25 @@
+#tes1{
+    display: block;
+    background-color: lightskyblue;
+    padding: 20px ;
+    border: 15px solid red;
+    margin: 20px;
+}
+#tes2{
+    display: block;
+    background-color: lightskyblue;
+    padding: 20px ;
+    border: 15px solid red;
+    margin-top: -20px;
+    margin-right: 20px;
+    margin-left: 210px;
+}
+#tes3{
+    display: block;
+    background-color: lightskyblue;
+    padding: 20px ;
+    border: 15px solid red;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-left: 400px;
+}

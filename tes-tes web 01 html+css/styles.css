@@ -1,5 +1,5 @@
 .banner-area{
-    background-image: url("pexels-miguel-á-padriñán-3936360.jpg");
+    background-image: url("pexels-simon-robben-204366.jpg");
     background-position: center center;
     background-size: cover;
     height: 100vh;
@@ -12,9 +12,13 @@ header{
     padding: 15px 60px;
 }
 .menu{
-    width: 42%;
+    width: 35%;
     float: right;
     list-style: none;
+    position: fixed;    
+    right: 0px;
+    top: 0px;
+    z-index: 1;
 }
 .menu li{
     width: 100px;
@@ -23,10 +27,11 @@ header{
     text-align: center;
     color: #fff;
     font-size: 13px;
+    border-radius: 30px;
     float: left;
 }
 .menu li:hover{
-    background: yellow;
+    background:brown;
 }
 .menu li:hover a{
     color: #000;
@@ -58,15 +63,19 @@ header{
     font-family: baloo;
     margin: 0;
     font-size: 55px;
-    color: yellow;
+    color:burlywood;
 }
 .banner-text p{
     font-size: 22px;
     margin: 0;
     font-family: poppins;
 }
+.banner-text h3{
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
 .banner-text a{
-    text text-decoration: none;
+    text-decoration: none;
     border: 1px solid #fff;
     font-size: 17px;
     padding: 10px 35px;
@@ -77,8 +86,70 @@ header{
     text-transform:uppercase;
 }
 .banner-text a:hover{
-    border-color: yellow;
-    background: yellow;
+    border-color: burlywood;
+    background: burlywood;
     transition: .5s;
     color: #262626;
+}
+.education {
+    background-color: #f5eee6;
+    text-align: center; 
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.logosmansa {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.logouk{        
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.experience{
+    background-color: #f3d7ca;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.certification{
+    background-color: #e6a4b4;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%; 
+}
+.skills{
+    background-color: #c86b85;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%; 
+}
+.hubungi{
+    background-color: lightgray;
+    text-align:left ;
+    margin-top: 0%;
+    margin-bottom: 2%;
+}
+@media screen and (max-width: 500px){
+    .logo{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
+    padding: 20px 0;
+    width: 20%;
+   float: left;
+    }
+    .menu li{
+        width: 20%;
+        float: left;
+        list-style: none;
+        font-size: 25px;
+        position: relative;
+        right: 0px;
+        top: 0px;
+        z-index: 1;
+    }
 }
